@@ -1,0 +1,188 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+/*1st Row*/
+.R1 span{
+    display: inline-block;
+    padding:40px;
+}
+.R1{
+    background-color: lightgrey;
+    height: 280px;;
+}
+.left{
+    float: left; 
+}
+.left img{
+    border-radius: 2in;
+}
+.right{
+    float:right;
+    text-align: right;
+    margin-top: 30px;
+}
+/*2nd Row*/
+div .R2 li{
+    display: inline-block;
+    background-color: grey; 
+    padding: 10px 20px;
+    color: white;
+    font-weight: 600;
+}
+div .R2{
+    text-align: center;
+}
+.R2M{
+    width="40%";
+    text-align: center;
+    padding : 25px 30px;
+    background-color: lightgray;
+}
+/*3rd Row*/
+.R3{
+    text-align: center;    
+    font-weight: bold;
+    margin-bottom: 100px;
+
+}
+
+.R3 .R31{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 50px ;
+}
+
+.img2 div, .img3 div {
+    display: inline-block;
+    padding:20px 50px;
+
+}
+.img2 div img, .img3 div img{
+    max-height: 250px;
+    max-width: 100%;
+    
+}
+.img2 div p,.img3 div p{
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:large;
+}
+/*4th row*/
+.R41{
+    text-align: center;
+    background-color: lightgrey;
+    padding: 40px ;
+    font-size: x-large;
+    font-weight: bold;
+}
+.R42{
+    text-align: center;
+    padding: 20px 50px 40px 50px; 
+    background-color: lightgrey;
+}
+.R42 div {
+    display: inline-block; 
+}
+.pd{
+    background-color :white;
+    color:black;
+    padding: 40px 20px;
+}
+.pd div{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 10px 60px;
+    
+
+}
+.pd ul{
+    margin-right: 380px;
+}
+.pd li{
+    text-align: left;
+    padding:3px;
+  
+}
+.ES{
+    background-color: black;
+    color: white;
+    padding: 40px 20px;
+   
+}
+.ES div{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 10px 60px;
+    
+
+}
+.ES ul{
+    margin-right: 380px;
+}
+.ES li  {
+    text-align: left;
+    padding:3px;
+}
+
+.empty2{
+    min-width: 2%;
+}
+
+.footer{
+    padding: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+@media only screen and (max-width:576px){
+body{
+    min-width: 576px;
+    float:inline-start;
+}
+.R1{  
+        display: inline;
+        background-color: white;
+    }
+
+.R1 span{
+    margin-top: 50px;
+}
+.R1 .left, .R2 .right{
+    align-items: center;
+    
+}
+.R2M{
+    background-color: white;
+}
+.R2M .R2{
+    display: inline-block;
+    text-align: center;
+}
+.right :is(h1,h3,),.right button{
+    text-align: center;
+}
+
+.img2{
+    display: inline-block;
+
+}
+.img2 div img, .img3 div img,.img2 div img p, .img3 div img p{
+    max-height: 40%;
+    max-width: 50%
+    text-align: center;
+}
+.R42 {
+    display: inline;
+    background-color: white;
+}
+.empty2{
+    max-width: 0px;
+}
+}
